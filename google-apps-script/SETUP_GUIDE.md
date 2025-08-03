@@ -29,20 +29,26 @@ This guide will help you deploy the User Management backend to Google Apps Scrip
 
 ### Step 3: Deploy the Code
 
-1. **Replace the default Code.gs file:**
-   - Delete the existing `myFunction()` in Code.gs
-   - Copy and paste the entire content from `Code.gs` in this folder
+1. **Choose your backend implementation:**
+   - **Basic**: Use `Code.gs` for basic user management only
+   - **Enhanced**: Use `Enhanced-Code.gs` for full complaint management system (recommended)
 
-2. **Add the appsscript.json configuration:**
+2. **Replace the default Code.gs file:**
+   - Delete the existing `myFunction()` in Code.gs
+   - Copy and paste the entire content from either `Code.gs` or `Enhanced-Code.gs`
+
+3. **Add the appsscript.json configuration:**
    - Click the gear icon (⚙️) in the left sidebar to view "Project Settings"
    - Check "Show 'appsscript.json' manifest file in editor"
    - Go back to the editor and click on `appsscript.json`
    - Replace its content with the content from `appsscript.json` in this folder
 
-3. **Configure the Spreadsheet ID:**
-   - In Code.gs, find this line:
+4. **Configure the Spreadsheet ID:**
+   - In your chosen code file, find this line:
      ```javascript
-     const SPREADSHEET_ID = 'YOUR_SPREADSHEET_ID';
+     const SPREADSHEET_ID = 'YOUR_SPREADSHEET_ID'; // Basic version
+     // OR
+     const CONFIG = { SHEET_ID: 'YOUR_SPREADSHEET_ID', ... }; // Enhanced version
      ```
    - Replace `YOUR_SPREADSHEET_ID` with your actual spreadsheet ID from Step 1
 
