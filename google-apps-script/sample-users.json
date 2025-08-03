@@ -1,0 +1,101 @@
+[
+  {
+    "ID": 1,
+    "Name": "Abebe Kebede",
+    "Email": "admin@eeu.gov.et",
+    "Role": "admin",
+    "Region": "Addis Ababa",
+    "Department": "System Administration",
+    "Phone": "+251-11-123-4567",
+    "Is Active": true,
+    "Created At": "2024-01-01"
+  },
+  {
+    "ID": 2,
+    "Name": "Tigist Haile",
+    "Email": "manager@eeu.gov.et",
+    "Role": "manager",
+    "Region": "Oromia",
+    "Department": "Regional Management",
+    "Phone": "+251-11-234-5678",
+    "Is Active": true,
+    "Created At": "2024-01-02"
+  },
+  {
+    "ID": 3,
+    "Name": "Getachew Tadesse",
+    "Email": "foreman@eeu.gov.et",
+    "Role": "foreman",
+    "Region": "Amhara",
+    "Department": "Field Operations",
+    "Phone": "+251-11-345-6789",
+    "Is Active": true,
+    "Created At": "2024-01-03"
+  },
+  {
+    "ID": 4,
+    "Name": "Meron Tesfaye",
+    "Email": "callattendant@eeu.gov.et",
+    "Role": "call-attendant",
+    "Region": "Addis Ababa",
+    "Department": "Customer Service",
+    "Phone": "+251-11-456-7890",
+    "Is Active": true,
+    "Created At": "2024-01-04"
+  },
+  {
+    "ID": 5,
+    "Name": "Dawit Solomon",
+    "Email": "technician@eeu.gov.et",
+    "Role": "technician",
+    "Region": "Addis Ababa",
+    "Department": "Field Service",
+    "Phone": "+251-11-567-8901",
+    "Is Active": true,
+    "Created At": "2024-01-05"
+  },
+  {
+    "ID": 6,
+    "Name": "Hanan Ahmed",
+    "Email": "hanan.ahmed@eeu.gov.et",
+    "Role": "manager",
+    "Region": "Tigray",
+    "Department": "Northern Operations",
+    "Phone": "+251-11-678-9012",
+    "Is Active": true,
+    "Created At": "2024-01-06"
+  },
+  {
+    "ID": 7,
+    "Name": "Yohannes Berhe",
+    "Email": "yohannes.berhe@eeu.gov.et",
+    "Role": "foreman",
+    "Region": "SNNPR",
+    "Department": "Southern Operations",
+    "Phone": "+251-11-789-0123",
+    "Is Active": true,
+    "Created At": "2024-01-07"
+  },
+  {
+    "ID": 8,
+    "Name": "Almaz Worku",
+    "Email": "almaz.worku@eeu.gov.et",
+    "Role": "call-attendant",
+    "Region": "Oromia",
+    "Department": "Customer Relations",
+    "Phone": "+251-11-890-1234",
+    "Is Active": true,
+    "Created At": "2024-01-08"
+  },
+  {
+    "ID": 9,
+    "Name": "Tesfaye Negash",
+    "Email": "tesfaye.negash@eeu.gov.et",
+    "Role": "technician",
+    "Region": "Amhara",
+    "Department": "Maintenance",
+    "Phone": "+251-11-901-2345",
+    "Is Active": false,
+    "Created At": "2024-01-09"
+  }
+]
